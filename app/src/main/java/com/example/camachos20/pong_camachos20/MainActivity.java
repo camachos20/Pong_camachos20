@@ -27,8 +27,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         // Connect the animation surface with the animator
-        AnimationSurface mySurface = (AnimationSurface) this
-                .findViewById(R.id.animationSurface);
+        AnimationSurface mySurface = (AnimationSurface)
+                this.findViewById(R.id.animationSurface);
         mySurface.setAnimator(new BallAnimator());
     }
 }
